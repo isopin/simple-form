@@ -1,0 +1,7 @@
+[error] E:\workspace\appplay\app\models\Person.java:2: cannot find symbol
+[error]   symbol:   class Models
+[error]   location: package play.db.ebean
+[error] play.db.ebean.Models
+[error] E:\workspace\appplay\app\models\Person.java:3: cannot find symbol
+[error]   symbol: class Models
+[error] Models

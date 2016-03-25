@@ -1,0 +1,91 @@
+
+package views.html
+
+import play.twirl.api._
+import play.twirl.api.TemplateMagic._
+
+
+     object index_Scope0 {
+import models._
+import controllers._
+import play.api.i18n._
+import views.html._
+import play.api.templates.PlayMagic._
+import java.lang._
+import java.util._
+import scala.collection.JavaConversions._
+import scala.collection.JavaConverters._
+import play.core.j.PlayMagicForJava._
+import play.mvc._
+import play.data._
+import play.api.data.Field
+import play.mvc.Http.Context.Implicit._
+
+class index extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with play.twirl.api.Template1[String,play.twirl.api.HtmlFormat.Appendable] {
+
+  /**/
+  def apply/*1.2*/(message: String):play.twirl.api.HtmlFormat.Appendable = {
+    _display_ {
+      {
+
+
+Seq[Any](format.raw/*1.19*/("""
+
+"""),_display_(/*3.2*/main("Welcome to Play")/*3.25*/ {_display_(Seq[Any](format.raw/*3.27*/("""
+
+    
+"""),format.raw/*6.1*/("""<div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details �</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details �</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details �</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>� 2015 Company, Inc.</p>
+      </footer>
+    </div>
+""")))}),format.raw/*32.2*/("""
+"""))
+      }
+    }
+  }
+
+  def render(message:String): play.twirl.api.HtmlFormat.Appendable = apply(message)
+
+  def f:((String) => play.twirl.api.HtmlFormat.Appendable) = (message) => apply(message)
+
+  def ref: this.type = this
+
+}
+
+
+}
+
+/**/
+object index extends index_Scope0.index
+              /*
+                  -- GENERATED --
+                  DATE: Sun Mar 06 20:19:16 EET 2016
+                  SOURCE: E:/workspace/appplay/app/views/index.scala.html
+                  HASH: 81ca99709d724390ef6157a0b1d4c64a41b6a4d1
+                  MATRIX: 745->1|857->18|885->21|916->44|955->46|988->53|2446->1481
+                  LINES: 27->1|32->1|34->3|34->3|34->3|37->6|63->32
+                  -- GENERATED --
+              */
+          

@@ -1,0 +1,10 @@
+@()
+
+@main("Welcome to Play") {
+   
+
+    <form  action="@routes.Application.addPerson()" method="POST">
+        <input type="text" name="name"/>
+        <button>Add Person</button>
+    </form>
+}

@@ -1,0 +1,14 @@
+package models;
+import play.db.ebean.Model;
+import javax.persistence.*;
+
+@SuppressWarnings("deprecation")
+@Entity
+public class Person extends Model {
+
+    @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
+	public String id;
+
+    public String name;
+}
